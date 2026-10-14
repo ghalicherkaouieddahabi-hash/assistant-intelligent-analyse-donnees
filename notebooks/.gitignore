@@ -1,0 +1,31 @@
+
+# Secrets et variables d'environnement
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Outils et éditeurs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données locales
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Logs et fichiers temporaires
+*.log
+.DS_Store
+Thumbs.db
